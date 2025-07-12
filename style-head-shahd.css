@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.navbar {
+  background-color: white;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: #f57c00;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-contact {
+  background-color: #f57c00;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.left-section {
+  width: 50%;
+}
+
+.left-section h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.left-section h1 span {
+  color: #f57c00;
+}
+
+.left-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.enactus-container {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.shop-container {
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.puresha-container {
+  align-self: center;
+  margin: 0 auto;
+}
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid;
+  margin-bottom: 6px;
+}
+
+.triangle-orange {
+  border-bottom-color: #f57c00;
+}
+
+.triangle-green {
+  border-bottom-color: #2e7d32;
+}
+
+
+.enactus-btn,
+.shop-btn,
+.puresha-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f27701;
+}
+
+.enactus-btn {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.shop-btn {
+  background-color: #f57c00;
+  color: white;
+  gap: 10px;
+}
+
+.puresha-btn {
+  background-color: #ffa726;
+  color: white;
+}
+
+.arrow-circle {
+  background-color: white;
+  color: #f57c00;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.right-section {
+  width: 500px;
+  position: relative;
+}
+
+.big-img {
+  width: 500px;
+  height: 400px;
+  object-fit: 0px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.small-img {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 150px;
+  height: 100px;
+  object-fit: 0px;
+  border-radius: 20px;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.start {
+  background-color: #2e7d32;
+  padding: 30px 20px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -70px;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+}
+
+
+.footer-triangle {
+  position: absolute;
+  bottom: -8px;
+  right: 40px;
+}
+.left-section p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  line-height: 1.8;
+  white-space: pre-line;
+}

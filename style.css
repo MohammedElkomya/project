@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.features{
+  font-weight:bolder;
+  font-size: 1.2em;
+  margin-bottom:  10px;
+}
+
+.icon{
+  position: relative;
+  top: -8px;
+  margin-right: 8px;
+  font-size: 1.4rem;
+  color: #f27701;
+}
+.feature1{
+  background-color:#266429;
+}
+.feature2{
+  background-color:#f27701;
+}
+.feature3{
+  background-color:#266429;
+}
+.number1{
+  width: 40px;
+  height: 40px;
+  color: #266429;
+}
+.number2{
+  width: 40px;
+  height: 40px;
+  color:#f27701;
+}
+.number3{
+  width: 40px;
+  height: 40px;
+  color:#266429;
+}
+.product-section h3,
+.about h3{
+  border-bottom-style: dashed;
+  border-color:#f27701;
+  border-width: thin;
+  margin-bottom: 0;
+}
+.product{
+  color:#f27701;
+}
+.btn{
+  background-color:#f27701;
+
+}
+button.btn:hover {
+  background-color: inherit !important;
+  color: #f27701 !important;
+  border-color: inherit !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  transform: none !important;
+}

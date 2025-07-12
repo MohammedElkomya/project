@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.custom-corner {
+  border-top-left-radius: 90px;
+}
+.move-img {
+    position: relative;
+  margin-right: 65px;
+  width: 82%;
+  height: auto;
+  margin-right: 65px;
+  display: block;
+}
+.logo-img {
+  width: 170px;
+  position: absolute;
+  top: -20px;
+  left: 280px;
+  border-radius: 16px;
+
+}
+
+.col-img-padding{
+    padding-right: 100px;
+}
